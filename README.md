@@ -1,21 +1,21 @@
-# theZoo - A Live Malware Repository
+# The GRID! - A Live Malware Repository
 
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round)](https://github.com/ytisf/theZoo/issues)
-[![HitCount](http://hits.dwyl.com/ytisf/theZoo.svg)](http://hits.dwyl.com/ytisf/theZoo)
-[![GitHub stars](https://img.shields.io/github/stars/ytisf/theZoo.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ytisf/theZoo/stargazers/)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round)](https://github.com/ytisf/TheGrid!/issues)
+[![HitCount](http://hits.dwyl.com/ytisf/TheGrid!.svg)](http://hits.dwyl.com/ytisf/TheGrid!)
+[![GitHub stars](https://img.shields.io/github/stars/ytisf/TheGrid!.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/ytisf/TheGrid!/stargazers/)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-![Logo](https://github.com/ytisf/theZoo/raw/gh-pages/MalDB-Logo-Thumb.png)
+![Logo](https://github.com/ytisf/TheGrid!/raw/gh-pages/MalDB-Logo-Thumb.png)
 
-theZoo is a project created to make the possibility of malware analysis open and available to the public. Since we have found out that almost all versions of malware are very hard to come by in a way which will allow analysis, we have decided to gather all of them for you in an accessible and safe way.
-theZoo was born by Yuval tisf Nativ and is now maintained by Shahak Shalev.
+The GRID! is a project created to make the possibility of malware analysis open and available to the public. Since we have found out that almost all versions of malware are very hard to come by in a way which will allow analysis, we have decided to gather all of them for you in an accessible and safe way.
+TheGrid! was born by Yuval tisf Nativ and is now maintained by Shahak Shalev.
 
-**theZoo is open and welcoming visitors!**
+**TheGrid! is open and welcoming visitors!**
 
 If you are about to interact with our community please make sure to read our `CODE-OF-CONDUCT.md` prior to doing so. If you plan to contribute, first - thank you. However, do make sure to follow the standards on `CONTRIBUTING.md`.
 
 ## Disclaimer
-theZoo's purpose is to allow the study of malware and enable people who are interested in malware analysis (or maybe even as a part of their job) to have access to live malware, analyse the ways they operate, and maybe even enable advanced and savvy  people to block specific malware within their own environment.
+TheGrid!'s purpose is to allow the study of malware and enable people who are interested in malware analysis (or maybe even as a part of their job) to have access to live malware, analyse the ways they operate, and maybe even enable advanced and savvy  people to block specific malware within their own environment.
 
 **Please remember that these are live and dangerous malware! They come encrypted and locked for a reason!  Do NOT run them unless you are absolutely sure of what you are doing! They are to be used only for educational purposes (and we mean that!) !!!**
 
@@ -23,21 +23,21 @@ We recommend running them in a VM which has no internet connection (or an intern
 
 ## Getting Started
 
-Clone the repository with `git clone https://www.github.com/ytisf/theZoo`. Go to the directory and run `pip install --user -r requirements.txt`. This should install all latest requirements needed. In total can be "scripted" like so:
+Clone the repository with `git clone https://www.github.com/ytisf/TheGrid!`. Go to the directory and run `pip install --user -r requirements.txt`. This should install all latest requirements needed. In total can be "scripted" like so:
 
 ```bash
-git clone https://www.github.com/ytisf/theZoo
-cd theZoo
+git clone https://www.github.com/ytisf/TheGrid!
+cd TheGrid!
 pip install --user -r requirements.txt
 ```
 
 Start by running the console:
 
-`python theZoo.py`
+`python TheGrid!.py`
 
 
 ## License
-theZoo - the most awesome free malware database on the air
+TheGrid! - the most awesome free malware database on the air
 Copyright (C) 2015-2021, Yuval Nativ, Lahad Ludar, 5fingers
 
 This program is free software: you can redistribute it and/or modify
@@ -55,16 +55,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 You can also find more information in `LICENSE.md`.
 
-**License section does not apply to any of malicious samples in theZoo's repository which includes samples and source code, reversed or otherwise.**
+**License section does not apply to any of malicious samples in TheGrid!'s repository which includes samples and source code, reversed or otherwise.**
 
 ## Documentation and Notes
 
 ### Background
-theZoo's objective is to offer a fast and easy way of retrieving malware samples and source code in an organized fashion in hopes of promoting malware research.
+TheGrid!'s objective is to offer a fast and easy way of retrieving malware samples and source code in an organized fashion in hopes of promoting malware research.
 
 ### Root Files
-Since version 0.42 theZoo has been undergoing dramatic changes. It now runs in both CLI and ARGVS modes. You can call the program with the same command line arguments as before.
-The current default state of theZoo runtime is the CLI. The following files and directories are responsible for the application's behaviour.
+Since version 0.42 TheGrid! has been undergoing dramatic changes. It now runs in both CLI and ARGVS modes. You can call the program with the same command line arguments as before.
+The current default state of TheGrid! runtime is the CLI. The following files and directories are responsible for the application's behaviour.
 
 `/conf` - The conf folder holds files relevant to the particular running of the program but are not part of the application. You can find the EULA file in the conf and more.
 
@@ -88,7 +88,7 @@ Each directory is composed of 4 files:
 ## Bugs and Reports
 
 The repository holding all files is currently
-	https://github.com/ytisf/theZoo
+	https://github.com/ytisf/TheGrid!
 
 ### Submit Malware
 Get the file you want to submit and just run `python prep_file.py file_tosubmit.exe`. It will create a directory for you. Then just submit that along with the changes to the `conf/maldb.db` so that we know which malware it is.
@@ -135,7 +135,7 @@ Get the file you want to submit and just run `python prep_file.py file_tosubmit.
 - [ ] A GUI.
 - [ ] Package releases.
 
-If you have any suggestions or malware that you have indexed (in the manner laid out in the documentation) please send it to us to - thezoo-submissions [a-t] morirt [.d0t.] com - so we can add it for everyone's enjoyment.
+If you have any suggestions or malware that you have indexed (in the manner laid out in the documentation) please send it to us to - TheGrid!-submissions [a-t] morirt [.d0t.] com - so we can add it for everyone's enjoyment.
 
 ## Shout outs
 
